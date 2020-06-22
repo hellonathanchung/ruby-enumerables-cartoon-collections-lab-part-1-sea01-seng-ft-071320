@@ -15,4 +15,5 @@ def list_dwarves(array)
   i = 0 
   array.each_with_index do |element|
     puts (i + 1) + "$#{element}"
+  end 
 end
